@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5047141727ABFFFD00DA1E18 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5047141627ABFFFD00DA1E18 /* InputView.swift */; };
+		5047141927AC001100DA1E18 /* InputViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5047141827AC001100DA1E18 /* InputViewModel.swift */; };
+		5047141C27AC07DC00DA1E18 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5047141B27AC07DC00DA1E18 /* Models.swift */; };
+		505475BB27AB73BA0056391D /* RobotViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505475BA27AB73BA0056391D /* RobotViewModel.swift */; };
+		505DCFB727AAA7AC008B4B9A /* ToyRobotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505DCFB627AAA7AC008B4B9A /* ToyRobotApp.swift */; };
+		505DCFB927AAA7AC008B4B9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505DCFB827AAA7AC008B4B9A /* ContentView.swift */; };
+		505DCFBB27AAA7AE008B4B9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 505DCFBA27AAA7AE008B4B9A /* Assets.xcassets */; };
+		505DCFBE27AAA7AE008B4B9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 505DCFBD27AAA7AE008B4B9A /* Preview Assets.xcassets */; };
+		505DCFC827AAA7AE008B4B9A /* ToyRobotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505DCFC727AAA7AE008B4B9A /* ToyRobotTests.swift */; };
+		505DCFD227AAA7AE008B4B9A /* ToyRobotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505DCFD127AAA7AE008B4B9A /* ToyRobotUITests.swift */; };
+		505DCFD427AAA7AE008B4B9A /* ToyRobotUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505DCFD327AAA7AE008B4B9A /* ToyRobotUITestsLaunchTests.swift */; };
+		508C7E5D27ABC966007351A1 /* CommandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508C7E5C27ABC966007351A1 /* CommandView.swift */; };
+		508C7E5F27ABCA59007351A1 /* TableTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508C7E5E27ABCA59007351A1 /* TableTopView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		505DCFC427AAA7AE008B4B9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 505DCFAB27AAA7AC008B4B9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 505DCFB227AAA7AC008B4B9A;
+			remoteInfo = ToyRobot;
+		};
+		505DCFCE27AAA7AE008B4B9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 505DCFAB27AAA7AC008B4B9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 505DCFB227AAA7AC008B4B9A;
+			remoteInfo = ToyRobot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5047141627ABFFFD00DA1E18 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		5047141827AC001100DA1E18 /* InputViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewModel.swift; sourceTree = "<group>"; };
+		5047141B27AC07DC00DA1E18 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		505475BA27AB73BA0056391D /* RobotViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RobotViewModel.swift; sourceTree = "<group>"; };
+		505DCFB327AAA7AC008B4B9A /* ToyRobot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToyRobot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		505DCFB627AAA7AC008B4B9A /* ToyRobotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyRobotApp.swift; sourceTree = "<group>"; };
+		505DCFB827AAA7AC008B4B9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		505DCFBA27AAA7AE008B4B9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		505DCFBD27AAA7AE008B4B9A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		505DCFC327AAA7AE008B4B9A /* ToyRobotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToyRobotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		505DCFC727AAA7AE008B4B9A /* ToyRobotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyRobotTests.swift; sourceTree = "<group>"; };
+		505DCFCD27AAA7AE008B4B9A /* ToyRobotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToyRobotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		505DCFD127AAA7AE008B4B9A /* ToyRobotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyRobotUITests.swift; sourceTree = "<group>"; };
+		505DCFD327AAA7AE008B4B9A /* ToyRobotUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyRobotUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		508C7E5C27ABC966007351A1 /* CommandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandView.swift; sourceTree = "<group>"; };
+		508C7E5E27ABCA59007351A1 /* TableTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableTopView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		505DCFB027AAA7AC008B4B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		505DCFC027AAA7AE008B4B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		505DCFCA27AAA7AE008B4B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5047141A27AC07A900DA1E18 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5047141B27AC07DC00DA1E18 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		505DCFAA27AAA7AC008B4B9A = {
+			isa = PBXGroup;
+			children = (
+				505DCFB527AAA7AC008B4B9A /* ToyRobot */,
+				505DCFC627AAA7AE008B4B9A /* ToyRobotTests */,
+				505DCFD027AAA7AE008B4B9A /* ToyRobotUITests */,
+				505DCFB427AAA7AC008B4B9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		505DCFB427AAA7AC008B4B9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				505DCFB327AAA7AC008B4B9A /* ToyRobot.app */,
+				505DCFC327AAA7AE008B4B9A /* ToyRobotTests.xctest */,
+				505DCFCD27AAA7AE008B4B9A /* ToyRobotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		505DCFB527AAA7AC008B4B9A /* ToyRobot */ = {
+			isa = PBXGroup;
+			children = (
+				505DCFB627AAA7AC008B4B9A /* ToyRobotApp.swift */,
+				5047141A27AC07A900DA1E18 /* Models */,
+				508C7E6027ABD085007351A1 /* Views */,
+				508C7E6127ABD0A8007351A1 /* ViewModel */,
+				505DCFBA27AAA7AE008B4B9A /* Assets.xcassets */,
+				505DCFBC27AAA7AE008B4B9A /* Preview Content */,
+			);
+			path = ToyRobot;
+			sourceTree = "<group>";
+		};
+		505DCFBC27AAA7AE008B4B9A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				505DCFBD27AAA7AE008B4B9A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		505DCFC627AAA7AE008B4B9A /* ToyRobotTests */ = {
+			isa = PBXGroup;
+			children = (
+				505DCFC727AAA7AE008B4B9A /* ToyRobotTests.swift */,
+			);
+			path = ToyRobotTests;
+			sourceTree = "<group>";
+		};
+		505DCFD027AAA7AE008B4B9A /* ToyRobotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				505DCFD127AAA7AE008B4B9A /* ToyRobotUITests.swift */,
+				505DCFD327AAA7AE008B4B9A /* ToyRobotUITestsLaunchTests.swift */,
+			);
+			path = ToyRobotUITests;
+			sourceTree = "<group>";
+		};
+		508C7E6027ABD085007351A1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				505DCFB827AAA7AC008B4B9A /* ContentView.swift */,
+				508C7E5E27ABCA59007351A1 /* TableTopView.swift */,
+				508C7E5C27ABC966007351A1 /* CommandView.swift */,
+				5047141627ABFFFD00DA1E18 /* InputView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		508C7E6127ABD0A8007351A1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				505475BA27AB73BA0056391D /* RobotViewModel.swift */,
+				5047141827AC001100DA1E18 /* InputViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		505DCFB227AAA7AC008B4B9A /* ToyRobot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 505DCFD727AAA7AE008B4B9A /* Build configuration list for PBXNativeTarget "ToyRobot" */;
+			buildPhases = (
+				505DCFAF27AAA7AC008B4B9A /* Sources */,
+				505DCFB027AAA7AC008B4B9A /* Frameworks */,
+				505DCFB127AAA7AC008B4B9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToyRobot;
+			productName = ToyRobot;
+			productReference = 505DCFB327AAA7AC008B4B9A /* ToyRobot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		505DCFC227AAA7AE008B4B9A /* ToyRobotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 505DCFDA27AAA7AE008B4B9A /* Build configuration list for PBXNativeTarget "ToyRobotTests" */;
+			buildPhases = (
+				505DCFBF27AAA7AE008B4B9A /* Sources */,
+				505DCFC027AAA7AE008B4B9A /* Frameworks */,
+				505DCFC127AAA7AE008B4B9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				505DCFC527AAA7AE008B4B9A /* PBXTargetDependency */,
+			);
+			name = ToyRobotTests;
+			productName = ToyRobotTests;
+			productReference = 505DCFC327AAA7AE008B4B9A /* ToyRobotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		505DCFCC27AAA7AE008B4B9A /* ToyRobotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 505DCFDD27AAA7AE008B4B9A /* Build configuration list for PBXNativeTarget "ToyRobotUITests" */;
+			buildPhases = (
+				505DCFC927AAA7AE008B4B9A /* Sources */,
+				505DCFCA27AAA7AE008B4B9A /* Frameworks */,
+				505DCFCB27AAA7AE008B4B9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				505DCFCF27AAA7AE008B4B9A /* PBXTargetDependency */,
+			);
+			name = ToyRobotUITests;
+			productName = ToyRobotUITests;
+			productReference = 505DCFCD27AAA7AE008B4B9A /* ToyRobotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		505DCFAB27AAA7AC008B4B9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					505DCFB227AAA7AC008B4B9A = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					505DCFC227AAA7AE008B4B9A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 505DCFB227AAA7AC008B4B9A;
+					};
+					505DCFCC27AAA7AE008B4B9A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 505DCFB227AAA7AC008B4B9A;
+					};
+				};
+			};
+			buildConfigurationList = 505DCFAE27AAA7AC008B4B9A /* Build configuration list for PBXProject "ToyRobot" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 505DCFAA27AAA7AC008B4B9A;
+			productRefGroup = 505DCFB427AAA7AC008B4B9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				505DCFB227AAA7AC008B4B9A /* ToyRobot */,
+				505DCFC227AAA7AE008B4B9A /* ToyRobotTests */,
+				505DCFCC27AAA7AE008B4B9A /* ToyRobotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		505DCFB127AAA7AC008B4B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				505DCFBE27AAA7AE008B4B9A /* Preview Assets.xcassets in Resources */,
+				505DCFBB27AAA7AE008B4B9A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		505DCFC127AAA7AE008B4B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		505DCFCB27AAA7AE008B4B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		505DCFAF27AAA7AC008B4B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				508C7E5D27ABC966007351A1 /* CommandView.swift in Sources */,
+				505DCFB927AAA7AC008B4B9A /* ContentView.swift in Sources */,
+				508C7E5F27ABCA59007351A1 /* TableTopView.swift in Sources */,
+				5047141C27AC07DC00DA1E18 /* Models.swift in Sources */,
+				505475BB27AB73BA0056391D /* RobotViewModel.swift in Sources */,
+				5047141727ABFFFD00DA1E18 /* InputView.swift in Sources */,
+				5047141927AC001100DA1E18 /* InputViewModel.swift in Sources */,
+				505DCFB727AAA7AC008B4B9A /* ToyRobotApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		505DCFBF27AAA7AE008B4B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				505DCFC827AAA7AE008B4B9A /* ToyRobotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		505DCFC927AAA7AE008B4B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				505DCFD427AAA7AE008B4B9A /* ToyRobotUITestsLaunchTests.swift in Sources */,
+				505DCFD227AAA7AE008B4B9A /* ToyRobotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		505DCFC527AAA7AE008B4B9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 505DCFB227AAA7AC008B4B9A /* ToyRobot */;
+			targetProxy = 505DCFC427AAA7AE008B4B9A /* PBXContainerItemProxy */;
+		};
+		505DCFCF27AAA7AE008B4B9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 505DCFB227AAA7AC008B4B9A /* ToyRobot */;
+			targetProxy = 505DCFCE27AAA7AE008B4B9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		505DCFD527AAA7AE008B4B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		505DCFD627AAA7AE008B4B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		505DCFD827AAA7AE008B4B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ToyRobot/Preview Content\"";
+				DEVELOPMENT_TEAM = Q57464F9FV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rahulgunjote.ToyRobot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		505DCFD927AAA7AE008B4B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ToyRobot/Preview Content\"";
+				DEVELOPMENT_TEAM = Q57464F9FV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rahulgunjote.ToyRobot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		505DCFDB27AAA7AE008B4B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q57464F9FV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rahulgunjote.ToyRobotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToyRobot.app/ToyRobot";
+			};
+			name = Debug;
+		};
+		505DCFDC27AAA7AE008B4B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q57464F9FV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rahulgunjote.ToyRobotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToyRobot.app/ToyRobot";
+			};
+			name = Release;
+		};
+		505DCFDE27AAA7AE008B4B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q57464F9FV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rahulgunjote.ToyRobotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ToyRobot;
+			};
+			name = Debug;
+		};
+		505DCFDF27AAA7AE008B4B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q57464F9FV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rahulgunjote.ToyRobotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ToyRobot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		505DCFAE27AAA7AC008B4B9A /* Build configuration list for PBXProject "ToyRobot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				505DCFD527AAA7AE008B4B9A /* Debug */,
+				505DCFD627AAA7AE008B4B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		505DCFD727AAA7AE008B4B9A /* Build configuration list for PBXNativeTarget "ToyRobot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				505DCFD827AAA7AE008B4B9A /* Debug */,
+				505DCFD927AAA7AE008B4B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		505DCFDA27AAA7AE008B4B9A /* Build configuration list for PBXNativeTarget "ToyRobotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				505DCFDB27AAA7AE008B4B9A /* Debug */,
+				505DCFDC27AAA7AE008B4B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		505DCFDD27AAA7AE008B4B9A /* Build configuration list for PBXNativeTarget "ToyRobotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				505DCFDE27AAA7AE008B4B9A /* Debug */,
+				505DCFDF27AAA7AE008B4B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 505DCFAB27AAA7AC008B4B9A /* Project object */;
+}
